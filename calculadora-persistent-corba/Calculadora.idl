@@ -1,0 +1,15 @@
+module CalculadoraApp
+{
+    interface Calculadora
+    {
+        double soma(in  double a, in  double b);
+        double subtracao(in  double a, in  double b);
+        double multiplicacao(in  double a, in  double b);
+        double divisao(in  double a, in  double b);
+        double potencia(in  double a, in  double b);
+        double raiz(in  double a, in  double b);
+        double logaritmo(in  double a, in  double b);
+        double modulo(in  double a, in  double b);
+        oneway void shutdown();
+    };
+};
